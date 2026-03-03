@@ -4,7 +4,113 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Admin dashboard</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="branding">
+          <a href="#">
+            <img src="./icons/view-dashboard.svg" alt="" />
+            <span>Dashboard</span>
+          </a>
+        </div>
+
+        <ul class="nav-primary">
+          <li>
+            <a href="#">
+              <img src="./icons/home.svg" alt="" />
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./icons/card-account-details.svg" alt="" />
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./icons/message-reply.svg" alt="" />
+              <span>Messages</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./icons/clock-time-three.svg" alt="" />
+              <span>History</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./icons/note-multiple.svg" alt="" />
+              <span>Tasks</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./icons/account-group.svg" alt="" />
+              <span>Communities</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="nav-secondary">
+          <li>
+            <a href="#">
+              <img src="./icons/cog.svg" alt="" />
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./icons/help-box.svg" alt="" />
+              <span>Support</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./icons/shield-check.svg" alt="" />
+              <span>Privacy</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <header>
+        <div class="header-primary">
+          <div class="search-bar">
+            <form action="" method="get">
+              <button type="submit">
+                <img src="./icons/magnify.svg" alt="" />
+              </button>
+              <input type="text" label="search" />
+            </form>
+          </div>
+
+          <div class="user-status">
+            <button><img src="./icons/bell-ring-outline.svg" alt="" /></button>
+            <img src="./profile/profile-01.svg" alt="" />
+            <span>Elena Jeong</span>
+          </div>
+        </div>
+
+        <div class="header-secondary">
+          <div class="user-info">
+            <img src="./profile/profile-01.svg" alt="" />
+            <span class="user-info-greeting">Hi there,</span>
+            <span class="user-info-name">Elena Jeong (@elena_builds)</span>
+          </div>
+
+          <div class="action-buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="main-content"></div>
+    </div>
+  </body>
 </html>
