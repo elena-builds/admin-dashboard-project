@@ -77,19 +77,21 @@
         </ul>
       </aside>
 
-      <header>
+      <header class="header">
         <div class="header-primary">
           <div class="search-bar">
             <form action="" method="get">
               <button type="submit">
                 <img src="./icons/magnify.svg" alt="" />
               </button>
-              <input type="text" label="search" />
+              <input type="text" aria-label="search" />
             </form>
           </div>
 
           <div class="user-status">
-            <button><img src="./icons/bell-ring-outline.svg" alt="" /></button>
+            <button type="button" aria-label="Notifications">
+              <img src="./icons/bell-ring-outline.svg" alt="" />
+            </button>
             <img src="./profile/profile-01.svg" alt="" />
             <span>Elena Jeong</span>
           </div>
@@ -110,7 +112,204 @@
         </div>
       </header>
 
-      <div class="main-content"></div>
+      <div class="main-content">
+        <section class="project-section">
+          <h2 class="title">Your Projects</h2>
+          <div class="project-container">
+            <div class="card">
+              <div class="card-text">
+                <h3>Super Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A,
+                  aliquid sed. Ipsum ullam officiis aspernatur, vel beatae
+                  mollntium placeat sapiente!
+                </p>
+              </div>
+              <div class="card-action">
+                <button type="button">
+                  <img src="./icons/star-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/eye-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/source-fork.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-text">
+                <h3>Less Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                  iusto, dignissimos ullam sint odio natus quaerat labore harum
+                  quidem magni, inventore sunt quisquam fugit hic atque
+                  perferendis optio, repellat officiis.
+                </p>
+              </div>
+              <div class="card-action">
+                <button type="button">
+                  <img src="./icons/star-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/eye-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/source-fork.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-text">
+                <h3>Impossible App</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem temporibus recusandae sint molestiae veritatis, dolor,
+                  nuri est, distinctio tenetur obcaecati?
+                </p>
+              </div>
+              <div class="card-action">
+                <button type="button">
+                  <img src="./icons/star-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/eye-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/source-fork.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-text">
+                <h3>Easy Peasy App</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                  neque reiciendis ab eum, architecto cumque omnis odit suscipit
+                  blanditiis quasi assumenda pariatur sapiente a ex corporis
+                  consectetur soluta. Dolorum, architecto.
+                </p>
+              </div>
+              <div class="card-action">
+                <button type="button">
+                  <img src="./icons/star-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/eye-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/source-fork.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-text">
+                <h3>Ad Blocker</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Necessitatibus eveniets. Magnam, qui esse? Soluta, enim
+                  distinctio.
+                </p>
+              </div>
+              <div class="card-action">
+                <button type="button">
+                  <img src="./icons/star-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/eye-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/source-fork.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-text">
+                <h3>Money Maker</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis deserunt iste, sit commodi voluptates blanditiis
+                  earum rerum numquam adipisci et mollitia temporibus omnis
+                  placeat vero accusantium. Aliquam soluta amet quidem.
+                </p>
+              </div>
+              <div class="card-action">
+                <button type="button">
+                  <img src="./icons/star-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/eye-plus-outline.svg" alt="" />
+                </button>
+                <button type="button">
+                  <img src="./icons/source-fork.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <aside class="main-content-side">
+          <section class="announcement-section">
+            <h2 class="title">Announcements</h2>
+            <div class="announcement-content-box">
+              <div class="announcement-item">
+                <h3>Site Maintenance</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  neque molestiae quaerat. Quasi nulla cum unde earum.
+                </p>
+              </div>
+              <div class="announcement-item">
+                <h3>Community Share Day</h3>
+                <p>
+                  Totam quidem cum numquam illum repellendus iure quae nihil id
+                  blanditiis commodi vero dicta tempor.
+                </p>
+              </div>
+              <div class="announcement-item">
+                <h3>Updated Privacy Policy</h3>
+                <p>
+                  Ratione autem libero. Ipsa praesentium iusto nihil blanditiis?
+                  Eveniet numquam harum, corrupti incidunt ipsa odio. possimus.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="trending-section">
+            <h2 class="title">Trending</h2>
+            <ul class="trending-users">
+              <li class="trending-user">
+                <img src="./profile/profile-02.svg" alt="" />
+                <div class="trending-user-text">
+                  <span class="username">@tegan</span>
+                  <span class="description">World Peace Builder</span>
+                </div>
+              </li>
+              <li class="trending-user">
+                <img src="./profile/profile-01.svg" alt="" />
+                <div class="trending-user-text">
+                  <span class="username">@elena_builds</span>
+                  <span class="description">Super Cool Project</span>
+                </div>
+              </li>
+              <li class="trending-user">
+                <img src="./profile/profile-03.svg" alt="" />
+                <div class="trending-user-text">
+                  <span class="username">@kendall</span>
+                  <span class="description">Life Changing App</span>
+                </div>
+              </li>
+              <li class="trending-user">
+                <img src="./profile/profile-04.svg" alt="" />
+                <div class="trending-user-text">
+                  <span class="username">@alex</span>
+                  <span class="description">No Traffic Maker</span>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </aside>
+      </div>
     </div>
   </body>
 </html>
