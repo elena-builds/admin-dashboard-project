@@ -180,7 +180,7 @@ header.header {
   background-color: #e2e8f0;
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 15px;
+  gap: 25px;
   padding: 25px;
 }
 h2,
@@ -191,7 +191,7 @@ p {
 h2.title {
   font-size: 19px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 aside.main-content-side {
   display: grid;
@@ -251,4 +251,46 @@ li.trending-user {
 .trending-user-text span.description {
   color: #929292;
   font-size: 15px;
+}
+
+.project-container {
+  display: grid;
+  grid-template: repeat(3, 1fr) / 1fr 1fr;
+  gap: 30px;
+}
+
+.project-container .card {
+  background-color: #ffffff;
+  border: none;
+  border-left: 8px solid #f0b429;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 27px 27px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 15px;
+}
+
+.card-text h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card-text p {
+  color: #929292;
+}
+.card-action {
+  justify-self: end;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+}
+.card-action button {
+  background-color: #ffffff;
+  border: none;
+}
+.card-action button img {
+  height: 24ox;
+  width: 24px;
 }
